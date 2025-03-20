@@ -1,0 +1,25 @@
+@import "tailwindcss";
+
+.item {
+    @apply border-l-4 border-orange-400;
+}
+
+.iconsdiv {
+    @apply flex items-center py-3 px-5;
+}
+
+.iconsdiv p {
+    @apply pl-3;
+}
+
+.li2 {
+    @apply mx-4;
+}
+
+.lorem {
+    @apply text-sm mb-5
+}
+
+header button {
+    @apply bg-blue-500 text-white rounded-xl lg:px-5 md:px-3 py-1 px-2 text-[12px] md:text-sm
+}
